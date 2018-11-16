@@ -8,7 +8,7 @@ const client2 = new Discord2.Client();
 var ServerID = "510514272229392384";
 var ChannelID = "512374264389828624";
 var prefix = "R";
-console.log('Love.. Online.');
+console.log('Love.. Idle.');
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on('ready', () => {
 client1.user.setActivity('Love..', {type: "STREAMING",url: "http://www.twitch.tv/dangernumber17"});
