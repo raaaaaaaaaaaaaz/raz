@@ -23,7 +23,7 @@ client.user.setActivity(argresult , {type:'LISTENING'});
   client.user.setStatus("dnd")
     message.channel.send(` ${argresult} \` `)
 } else 
-if (message.content.startsWith('Rst')) {
+if (message.content.startsWith('RLt')) {
   client.user.setGame(argresult, "https://www.twitch.tv/MeeRcY");
   client.user.setStatus("dnd")
    message.channel.send(`${argresult} \` `)
