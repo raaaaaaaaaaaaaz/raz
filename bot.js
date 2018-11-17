@@ -31,7 +31,7 @@ if (message.content.startsWith('Rst')) {
 }
   client.on('message', message => {//NouNouDz#6720
         if (!developers.includes(message.author.id)) return;//NouNouDz#6720
-  if (message.content === '..1') {//NouNouDz#6720
+  if (message.content === 'Rjoin') {//NouNouDz#6720
 
   let channel = client.channels.get('511744532992229377');//NouNouDz#6720
 
