@@ -23,7 +23,7 @@ client.user.setActivity(argresult , {type:'LISTENING'});
   client.user.setStatus("dnd")
     message.channel.send(` ${argresult} \` `)
 } else 
-if (message.content.startsWith('RLt')) {
+if (message.content.startsWith('Rst')) {
   client.user.setGame(argresult, "https://www.twitch.tv/MeeRcY");
   client.user.setStatus("dnd")
    message.channel.send(`${argresult} \` `)
@@ -31,7 +31,7 @@ if (message.content.startsWith('RLt')) {
 }
   client.on('message', message => {//NouNouDz#6720
         if (!developers.includes(message.author.id)) return;//NouNouDz#6720
-  if (message.content === 'Rjoin') {//NouNouDz#6720
+  if (message.content === '951') {//NouNouDz#6720
 
   let channel = client.channels.get('511744532992229377');//NouNouDz#6720
 
